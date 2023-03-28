@@ -1,0 +1,45 @@
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import './Home.css';
+import Png from './asserts/student-login.png.svg';
+import png from './asserts/logo.f2eb6d32.svg';
+class Home extends Component {
+  render() {
+    return (
+      <>
+        <div className="login-vector">
+          <div className="logo"></div>
+          <img src={png} className="logo"></img>
+          <img src={Png} />
+        </div>
+
+        <div className="container">
+          <h1>Student Login</h1>
+          <form action="Teacher Login">
+            <div>
+              <input type="text" name="email" id="email" placeholder="email" />
+            </div>
+            <div>
+              <input
+                type="text"
+                name="password"
+                id="password"
+                placeholder="password"
+              />
+            </div>
+            <button type="submit">Login</button>
+            <p>
+              Not a student?
+              <span className="link">
+                <Link to={'/contact'} className="link">
+                  Teacher / Parent Login
+                </Link>
+              </span>
+            </p>
+          </form>
+        </div>
+      </>
+    );
+  }
+}
+export default Home;

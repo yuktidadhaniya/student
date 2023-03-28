@@ -1,0 +1,134 @@
+/* .container
+{
+   display: flex;
+   
+} */
+.link {
+    cursor: pointer;
+    color: #2b95f9;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.header
+{
+    position: absolute;
+
+    width: 100%;
+    padding: 15px 30px;
+    max-width: 1920px;
+    
+}
+input {
+    /* height: 45px; */
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #f0f0f0;
+}
+
+
+h1
+{
+    margin-left: 70px;
+    font-weight: 700;
+    color: #003a7f;
+    width: 50%;
+    align-items: center;
+    margin-bottom: 25px;
+    /* text-align: center; */
+    /* line-height: 38px */
+}
+button {
+    width: 200px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 50px;
+    color: #fff;
+    background-color: #2b95f9;
+    border-color: #2b95f9;
+    margin-top: 10px;   
+    border-radius: 10px;
+}
+button:hover
+{
+    background-color: blue;
+}
+
+a:hover {
+    
+    color: red;
+  }
+p
+{
+    margin-left: 60px;
+    font-size: 20px;
+}
+input[type="text"] {
+    margin-left: 50px;
+     height: 31px;
+     width: 333px;
+     font-size: 18px;
+}
+/* h1
+{
+    padding-top: 250px;
+   
+} */
+
+
+.btn
+{
+    display: flex;
+   
+   border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin: 50px;
+   
+    background-color:darkgrey;
+    cursor: pointer;
+    
+}
+
+
+.btn:hover
+{
+    background-color: indianred;
+}
+.login-vector
+{
+    padding: 60px 20px 20px;
+    float: left;
+    width: 50%;
+    box-shadow: 2px 0 8.8px 1.2px hsl(0deg 0% 42% / 20%);
+    max-height: 100%;
+    /* overflow: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    /* margin: 20px; */
+    background: linear-gradient(135deg,#a9fffe,#9d91f4 89%,#9d91f4);
+}
+.logo{
+    width:165px;
+    margin-right: 700px;
+   
+}
+
+/* @media screen and (max-width:390px) {
+    .logo
+    {
+        width:50px
+    }
+    
+} */

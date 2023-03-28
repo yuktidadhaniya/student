@@ -1,0 +1,62 @@
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import './Home.css';
+class Contact extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Create Teacher Account</h1>
+        <button type="submit" className="btn">
+          Sign in With Google
+        </button>
+        <div>
+          <form action="Create Teacher Account">
+            <div>
+              <input
+                type="text"
+                name="last name"
+                id="last name"
+                placeholder="last name"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                name="first name"
+                id="first name"
+                placeholder="first name"
+              />
+            </div>
+
+            <div>
+              <input type="text" name="email" id="email" placeholder="email" />
+            </div>
+            <div>
+              <input
+                type="text"
+                name="password"
+                id="password"
+                placeholder="password"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                name="Confirm"
+                id="Confirm"
+                placeholder="Confirm"
+              />
+            </div>
+            <button type="submit">SignUp</button>
+            <p>
+              <Link to={'/contact'} className="link">
+                Already have an account?
+              </Link>
+            </p>
+          </form>
+        </div>
+      </div>
+    );
+  }
+}
+export default Contact;

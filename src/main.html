@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="app">
+        <div class="home">
+          <main class="main-wrapper login-main-wrapper background-teacher">
+            <section class="login-wrapper">
+              <header class="header">
+                <div class="header-flex">
+                  <div class="header-cols head-col-left">
+                    <span class="logo-wrapper"
+                      ><a href="https://www.mathfactlab.com/"
+                        ><img
+                          src="/static/media/logo.f2eb6d32.svg"
+                          alt="MathFactLab"
+                          class="login-logo" /></a
+                    ></span>
+                  </div>
+                </div>
+              </header>
+              <div>
+                <div>
+                  <div
+                    class="grecaptcha-badge"
+                    data-style="bottomright"
+                    style="
+                      width: 256px;
+                      height: 60px;
+                      display: block;
+                      transition: right 0.3s ease 0s;
+                      position: fixed;
+                      bottom: 14px;
+                      right: -186px;
+                      box-shadow: gray 0px 0px 5px;
+                      border-radius: 2px;
+                      overflow: hidden;
+                    "
+                  >
+                    <div class="grecaptcha-logo">
+                      <iframe
+                        title="reCAPTCHA"
+                        src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfG5m0dAAAAAH1QtEO5z0Iz6NQxUa-c0R3gk2p3&amp;co=aHR0cHM6Ly9hcHAubWF0aGZhY3RsYWIuY29tOjQ0Mw..&amp;hl=en&amp;type=image&amp;v=O4xzMiFqEvA4YhWjk5t8Xuas&amp;theme=light&amp;size=invisible&amp;badge=bottomright&amp;cb=ym3nzwb1u8mx"
+                        width="256"
+                        height="60"
+                        role="presentation"
+                        name="a-75e4dkwhzda"
+                        frameborder="0"
+                        scrolling="no"
+                        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+                      ></iframe>
+                    </div>
+                    <div class="grecaptcha-error"></div>
+                    <textarea
+                      id="g-recaptcha-response"
+                      name="g-recaptcha-response"
+                      class="g-recaptcha-response"
+                      style="
+                        width: 250px;
+                        height: 40px;
+                        border: 1px solid rgb(193, 193, 193);
+                        margin: 10px 25px;
+                        padding: 0px;
+                        resize: none;
+                        display: none;
+                      "
+                    ></textarea>
+                  </div>
+                  <iframe style="display: none"></iframe>
+                </div>
+              </div>
+              <div class="login-flex">
+                <div class="login-cols inner-background">
+                  <div class="login-vector-wrap">
+                    <div class="login-vector">
+                      <img
+                        src="/static/media/teacher-login.bdd76c90.svg"
+                        class="vector-img"
+                        alt=""
+                        style="opacity: 1; transition: opacity 0.5s ease 0s"
+                      />
+                    </div>
+                    <div class="login-vector-text">
+                      <h4 class="h4 text-white font-normal">
+                        Help your students master the basic math facts with this
+                        strategy-based approach.
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="login-cols">
+                  <div class="login-cols-inner teacher-switch">
+                    <h2 class="login-title">Teacher Login</h2>
+                    <p class="font-18 text-center login-subtext">
+                      Parent
+                      <button
+                        type="button"
+                        role="switch"
+                        aria-checked="true"
+                        class="ant-switch ant-switch-checked"
+                      >
+                        <div class="ant-switch-handle"></div>
+                        <span class="ant-switch-inner"></span>
+                      </button>
+                      Teacher
+                    </p>
+                    <form name="student-login">
+                      <div class="social-group">
+                        <ul class="social-login-buttons flex">
+                          <li class="social-lb-item flex-grow-1">
+                            <a
+                              class="btn-icon btn-google with-text"
+                              href="https://accounts.google.com/o/oauth2/v2/auth?scope=email%20profile&amp;include_granted_scopes=true&amp;redirect_uri=https://app.mathfactlab.com/teacher/login&amp;client_id=901843871623-39hk1ljpmitveh42g5cb3i4oqmai104h.apps.googleusercontent.com&amp;response_type=code&amp;access_type=offline"
+                              ><i
+                                class="icon-color-google"
+                                aria-hidden="true"
+                              ></i
+                              >Sign in with Google</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="text-separator">
+                        <span class="txt-sep">or</span>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-wrap">
+                          <label for="temail" class="input-label"
+                            ><i class="icon-envelope" aria-hidden="true"></i
+                            >Email</label
+                          ><input
+                            placeholder="Enter your email ID"
+                            name="temail"
+                            id="temail"
+                            class="input-field input-error"
+                          />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="input-wrap">
+                          <label for="tpassword" class="input-label"
+                            ><i class="icon-lock" aria-hidden="true"></i
+                            >Password</label
+                          ><input
+                            type="password"
+                            placeholder="Enter your password"
+                            name="tpassword"
+                            id="tpassword"
+                            class="input-field input-error"
+                          />
+                          <i
+                            class="icon-view show-password-icon"
+                            aria-hidden="true"
+                          ></i>
+                        </div>
+                      </div>
+                      <div class="form-group pt-10">
+                        <button
+                          class="btn btn-primary button-full"
+                          type="submit"
+                        >
+                          Login
+                        </button>
+                      </div>
+                      <div class="form-group">
+                        <p
+                          class="font-18 text-center"
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                          "
+                        >
+                          <a class="link" href="/teacher/signup">
+                            Don't have an account? </a
+                          ><i class="icon-elipse sm-elipse"></i
+                          ><a class="link" href="/teacher/forgot-password">
+                            Forgot password?</a
+                          >
+                        </p>
+                      </div>
+                      <div class="wrap text-center pt-10">
+                        <p class="font-18">
+                          Not a teacher?
+                          <a class="link" href="/student/login">
+                            Student login</a
+                          >
+                        </p>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
